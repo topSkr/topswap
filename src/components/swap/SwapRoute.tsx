@@ -1,4 +1,4 @@
-import { Trade } from 'topswapv1-sdk'
+import { Trade } from 'mapswapv2-sdk'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex } from 'rebass'

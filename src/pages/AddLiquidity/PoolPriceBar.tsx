@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from 'topswapv1-sdk'
+import { Currency, Percent, Price } from 'mapswapv2-sdk'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

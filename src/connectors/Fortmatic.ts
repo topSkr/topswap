@@ -1,4 +1,4 @@
-import { ChainId } from 'topswapv1-sdk'
+import { ChainId } from 'mapswapv2-sdk'
 import { FortmaticConnector as FortmaticConnectorCore } from '@web3-react/fortmatic-connector'
 
 export const OVERLAY_READY = 'OVERLAY_READY'

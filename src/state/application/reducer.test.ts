@@ -1,4 +1,4 @@
-import { ChainId } from 'topswapv1-sdk'
+import { ChainId } from 'mapswapv2-sdk'
 import { createStore, Store } from 'redux'
 import { addPopup, removePopup, toggleSettingsMenu, toggleWalletModal, updateBlockNumber } from './actions'
 import reducer, { ApplicationState } from './reducer'

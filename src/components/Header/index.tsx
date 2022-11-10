@@ -1,4 +1,4 @@
-import { ChainId } from 'topswapv1-sdk'
+import { ChainId } from 'mapswapv2-sdk'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'
@@ -132,7 +132,7 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
   [ChainId.KOVAN]: 'Kovan',
-  
+  [ChainId.MAP_TEST]: 'MAP_TEST'
 }
 
 export default function Header() {

@@ -1,4 +1,4 @@
-import { Percent } from 'topswapv1-sdk'
+import { Percent } from 'mapswapv2-sdk'
 import React from 'react'
 import { ONE_BIPS } from '../../constants'
 import { warningSeverity } from '../../utils/prices'

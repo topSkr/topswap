@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Token, Trade } from 'topswapv1-sdk'
+import { CurrencyAmount, JSBI, Token, Trade } from 'mapswapv2-sdk'
 import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { ArrowDown } from 'react-feather'
 import ReactGA from 'react-ga'

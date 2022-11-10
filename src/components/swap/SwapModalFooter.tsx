@@ -1,4 +1,4 @@
-import { Trade, TradeType } from 'topswapv1-sdk'
+import { Trade, TradeType } from 'mapswapv2-sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

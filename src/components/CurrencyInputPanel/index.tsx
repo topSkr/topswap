@@ -1,4 +1,4 @@
-import { Currency, Pair } from 'topswapv1-sdk'
+import { Currency, Pair } from 'mapswapv2-sdk'
 import React, { useState, useContext, useCallback } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import { darken } from 'polished'

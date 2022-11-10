@@ -1,4 +1,4 @@
-import { ChainId, Token } from 'topswapv1-sdk'
+import { ChainId, Token } from 'mapswapv2-sdk'
 import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
@@ -36,7 +36,7 @@ const EMPTY_LIST: TokenAddressMap = {
   [ChainId.ROPSTEN]: {},
   [ChainId.GÖRLI]: {},
   [ChainId.MAINNET]: {},
- 
+  [ChainId.MAP_TEST]: {}
 }
 
 const listCache: WeakMap<TokenList, TokenAddressMap> | null =

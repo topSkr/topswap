@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, ETHER, WETH } from 'topswapv1-sdk'
+import { Currency, currencyEquals, ETHER, WETH } from 'mapswapv2-sdk'
 import { useMemo } from 'react'
 import { tryParseAmount } from '../state/swap/hooks'
 import { useTransactionAdder } from '../state/transactions/hooks'

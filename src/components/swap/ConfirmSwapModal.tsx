@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'topswapv1-sdk'
+import { currencyEquals, Trade } from 'mapswapv2-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

@@ -1,4 +1,4 @@
-import { Token } from 'topswapv1-sdk'
+import { Token } from 'mapswapv2-sdk'
 import { transparentize } from 'polished'
 import React, { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'

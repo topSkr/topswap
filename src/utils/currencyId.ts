@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'topswapv1-sdk'
+import { Currency, ETHER, Token } from 'mapswapv2-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

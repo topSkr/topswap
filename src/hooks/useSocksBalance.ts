@@ -1,4 +1,4 @@
-import { JSBI } from 'topswapv1-sdk'
+import { JSBI } from 'mapswapv2-sdk'
 import { useMemo } from 'react'
 import { NEVER_RELOAD, useSingleCallResult } from '../state/multicall/hooks'
 import { useActiveWeb3React } from './index'

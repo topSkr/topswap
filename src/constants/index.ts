@@ -1,9 +1,9 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'topswapv1-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from 'mapswapv2-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x9B7143576277ED02CD57375A004910E4cE6BD8c6'
+export const ROUTER_ADDRESS = '0x806e62028a4BAb675Dcf354Ae190E8081B8A1137'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -23,7 +23,7 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
-  
+  [ChainId.MAP_TEST]: [WETH[ChainId.MAP_TEST]]
 }
 
 // used to construct intermediary pairs for trading

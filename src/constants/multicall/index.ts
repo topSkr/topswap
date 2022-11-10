@@ -1,4 +1,4 @@
-import { ChainId } from 'topswapv1-sdk'
+import { ChainId } from 'mapswapv2-sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
@@ -7,7 +7,7 @@ const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
   [ChainId.KOVAN]: '0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A',
   [ChainId.RINKEBY]: '0x42Ad527de7d4e9d9d011aC45B31D8551f8Fe9821',
   [ChainId.GÖRLI]: '0x77dCa2C955b15e9dE4dbBCf1246B4B85b651e50e',
-
+  [ChainId.MAP_TEST]: '0x806e62028a4BAb675Dcf354Ae190E8081B8A1137'
 }
 
 export { MULTICALL_ABI, MULTICALL_NETWORKS }

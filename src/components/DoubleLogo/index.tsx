@@ -1,4 +1,4 @@
-import { Currency } from 'topswapv1-sdk'
+import { Currency } from 'mapswapv2-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

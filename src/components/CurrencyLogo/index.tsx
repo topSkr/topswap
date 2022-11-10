@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'topswapv1-sdk'
+import { Currency, ETHER, Token } from 'mapswapv2-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
